@@ -1,0 +1,22 @@
+<web-app>
+    <display-name>Votazioni</display-name>
+    <description>Getione voti con cookie</description>
+
+    <servlet>
+        <servlet-name>sondaggio_vota</servlet-name>
+        <servlet-class>sondaggio_vota</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sondaggio_vota</servlet-name>
+        <url-pattern>/sondaggio_vota</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sondaggio_risultati</servlet-name>
+        <servlet-class>sondaggio_risultati</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sondaggio_risultati</servlet-name>
+        <url-pattern>/sondaggio_risultati</url-pattern>
+    </servlet-mapping>
+</web-app>
